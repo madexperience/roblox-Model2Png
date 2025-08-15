@@ -1,0 +1,4 @@
+& "C:\Program Files\Blender Foundation\Blender 4.4\blender.exe" --factory-startup -b -P "C:\Users\halli\Documents\OverdareStudio\FishLand\ThumbnailGenerator.py" -- `
+  --input "C:\Users\halli\Downloads\Fishlandmodels" `
+  --output "C:\Users\halli\Downloads\fishlandTH" `
+  --res 512 --bg transparent --angle 30 30 --margin 2.0 --ext obj fbx
