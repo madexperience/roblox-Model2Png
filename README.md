@@ -1,5 +1,6 @@
 # roblox-Model2Png
-fbx,obj 확장자 모델 파일들의 이미지 썸네일(png)을 자동으로 뽑아줍니다.
+FBX, OBJ 형식의 3D 모델에서 자동으로 PNG 썸네일을 생성합니다.
+ViewportFrame으로 아이콘을 만들 때 발생하는 해상도 저하 문제를 해결하기 위해 제작했습니다.
 
 require : blender 4.0 이상
 
