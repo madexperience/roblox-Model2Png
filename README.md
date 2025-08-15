@@ -1,2 +1,15 @@
 # roblox-Model2Png
-fbx,obj files convert into png file
+fbx,obj 모델 파일들의 이미지 썸네일(png)을 자동으로 뽑아줍니다.
+
+require : blender 4.0 이상 / node.js v16 이상
+
+```cmd
+& "C:\Program Files\Blender Foundation\Blender 4.4\blender.exe...블렌더 경로" --factory-startup -b -P "C:\Users\...model2png.py..소스 경로" -- `
+  --input "C:\Users\...input 파일 경로(폴더)" `
+  --output "C:\Users\...output 파일 경로(폴더)" `
+  --res 512 
+  --bg transparent
+  --angle 30 30
+  --margin 2.0
+  --ext obj fbx
+```
