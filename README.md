@@ -13,8 +13,3 @@ require : blender 4.0 이상 / node.js v16 이상
   --margin 2.0 \\ 마진 설정
   --ext obj fbx \\ input 확장자 설정
 ```
-
-```cmd
---res
-```
---res : 이미지 사이즈 조절
