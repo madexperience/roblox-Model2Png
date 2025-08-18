@@ -12,7 +12,7 @@ require : blender 4.0 이상
   --res 512 \\ image resolution
   --bg transparent \\ 투명배경 유무
   --angle 30 30 \\ 모델 각도 설정
-  --margin 2.0 \\ 카메라와의 거리라고 생각하시면 편합니다
+  --margin 2.0 \\ 모델과 카메라 사이의 거리라고 생각하시면 편합니다
   --ext obj fbx \\ input 확장자 설정
 ```
 
