@@ -9,10 +9,10 @@ require : blender 4.0 이상
 & "C:\Program Files\Blender Foundation\Blender 4.4\blender.exe...블렌더 경로" --factory-startup -b -P "C:\Users\...model2png.py..소스 경로" 
   --input "C:\Users\...input 파일 경로(폴더)" `
   --output "C:\Users\...output 파일 경로(폴더)" `
-  --res 512 \\ 이미지 resize
+  --res 512 \\ image resolution
   --bg transparent \\ 투명배경 유무
   --angle 30 30 \\ 모델 각도 설정
-  --margin 2.0 \\ 마진 설정
+  --margin 2.0 \\ 카메라와의 거리라고 생각하시면 편합니다
   --ext obj fbx \\ input 확장자 설정
 ```
 
