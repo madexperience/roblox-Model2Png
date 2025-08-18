@@ -6,7 +6,7 @@ require : blender 4.0 이상
 
 
 ```cmd
-& "C:\Program Files\Blender Foundation\Blender 4.4\blender.exe...블렌더 경로" --factory-startup -b -P "C:\Users\...model2png.py..소스 경로" -- `
+& "C:\Program Files\Blender Foundation\Blender 4.4\blender.exe...블렌더 경로" --factory-startup -b -P "C:\Users\...model2png.py..소스 경로" 
   --input "C:\Users\...input 파일 경로(폴더)" `
   --output "C:\Users\...output 파일 경로(폴더)" `
   --res 512 \\ 이미지 resize
